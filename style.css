@@ -1,0 +1,296 @@
+@font-face {
+    font-family:Helvetica ;
+    src: url(assest/fonts/Helvetica.ttf);
+}
+
+.lp-nav{
+    padding-top: 20px;
+}
+.lp-nav-icon{
+    justify-content: center;
+    
+   
+}
+.lp-nav-icon >ul{
+    gap: 30px;
+    align-items: center;
+   margin-left: auto;
+   
+    
+}
+
+.lp-nav-btn >li > button{
+    background-color: black;
+    color: white;
+    padding: 8px 30px;
+    text-align: end;
+}
+
+.lp-f-menu{
+    padding-top: 20px;
+}
+
+.lp-f-menu-contant> h1{
+    font-weight: 700;
+    font-family:  Helvetica;
+    font-size: 70px;
+}
+
+.lp-f-menu-contant> p{
+    font-weight: 200;
+    font-size: 23px;
+    font-family:Helvetica;
+}
+
+.lp-f-menu-contant>button{
+     background-color: black;
+     color: white;
+     padding: 6px 15px;
+}
+
+.lp-f-menu-contant{
+    padding-top: 50px;
+
+}
+
+.lp-img-menu-sec{
+    padding-top: 30px;
+}
+
+.lp-thrd-banner{
+    padding-top: 10px;
+}
+
+.lp-thrd-banner-text> h1{
+   font-size: 45px;
+   font-weight: 700;
+   font-family: Helvetica;
+}
+
+.lp-thrd-banner-text> p{
+   font-family : Helvetica;
+   font-size: 26px;
+   font-weight: 200;
+}
+.lp-seclast-banner{
+    padding-top: 30px;
+}
+
+.lp-seclast-banner-btn{
+    background-color: black;
+}
+
+.lp-last-banner-col{
+
+  padding-top: 20px;
+    
+}
+
+.lp-last-banner-col > img , p{
+
+   justify-content: space-between;
+
+}
+
+.lp-features
+{
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.lp-box-one{
+    height: 220px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 200px;
+
+}
+.lp-box-one> p{
+   font-size: 14px;
+}
+
+.lp-box-one> h1{
+    font-weight: 900;
+
+   
+}
+
+.lp-box-two{
+    height: 220px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 200px;
+
+}
+.lp-box-two> p{
+   font-size: 14px;
+}
+
+.lp-box-two> h1{
+    font-weight: 900;
+
+   
+}
+
+.lp-box-three{
+    height: 220px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 200px;
+   
+}
+.lp-box-three> p{
+   font-size: 12px;
+}
+
+.lp-box-three> h1{
+    font-weight: 900;
+
+   
+}
+
+@media only screen and (max-width:1115px){
+    .lp-f-menu-contant> h1 {
+        font-size: 60px;
+    }
+
+    .lp-f-menu-contant> p{
+         font-size: 18px;
+
+    }
+.menu-sec-img-one>img{
+    width: 250px;
+}
+
+.menu-sec-img-sec>img{
+    width: 250px;
+}
+
+.menu-sec-img-thrd>img{
+    width: 250px;
+}
+
+
+.lp-thrd-banner-text> h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Helvetica;
+ }
+ 
+ .lp-thrd-banner-text> p{
+    font-family : Helvetica;
+    font-size: 20px;
+    font-weight: 100;
+ }
+}
+@media only screen and (max-width:995px){
+    .lp-f-menu-contant> h1 {
+        font-size: 40px;
+    }
+
+    .lp-f-menu-contant> p{
+         font-size: 16px;
+    }
+    .menu-sec-img-one>img{
+        width: 150px;
+    }
+
+    .menu-sec-img-sec>img{
+        width: 150px;
+    }
+
+    .menu-sec-img-thrd>img{
+        width: 150px;
+    }
+    .menu-text-one {
+        font-size:13.5px ;
+    }
+
+    .menu-text-sec {
+        font-size:12px ;
+    }
+
+    .menu-text-thrd {
+        font-size:14px ;
+    }
+    .lp-thrd-banner-text> h1{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Helvetica;
+ }
+ 
+ .lp-thrd-banner-text> p{
+    font-family : Helvetica;
+    font-size: 14px;
+    font-weight: 100;
+ }
+}
+
+
+
+@media only screen and (max-width:767px){
+    .lp-f-menu-contant{
+        text-align: center;
+    }
+    .menu-sec-img-one>img{
+        width: 230px;
+    }
+
+    .menu-sec-img-sec>img{
+        width: 230px;
+    }
+
+    .menu-sec-img-thrd>img{
+        width: 230px;
+    }
+
+    .menu-text-one {
+        font-size:14px ;
+    }
+
+    .menu-text-sec {
+        font-size:14px ;
+    }
+
+    .menu-text-thrd {
+        font-size:14px ;
+    }
+
+.lp-thrd-banner-text> h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Helvetica;
+    text-align: center;
+ }
+
+ 
+ .lp-thrd-banner-text> p{
+    font-family : Helvetica;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+ }
+
+ .lp-features{
+    font-size: 35px;
+ }
+
+ .lp-box-one{
+
+    margin-top: 10px;
+ }
+
+ .lp-box-two{
+
+    margin-top: 10px;
+ }
+
+ .lp-box-three{
+
+    margin-top: 10px;
+    padding-top: 20px;
+ }
+}
